@@ -2,13 +2,13 @@
     margin:0px;
     padding: 0px;
 }
-/*
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-*/
+
 
 body{
     background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
