@@ -80,9 +80,14 @@ var crearOperacion=(operacion)=>{
 var mostrarLS=()=>{
     mostrarHistorial.innerHTML = ''
     historial=JSON.parse(localStorage.getItem("historial"))
-    historial.forEach(e => {
-        mostrarHistorial.innerHTML += `<div><p>${e.operacion}</p></div>`
-    });
+    if (historial == null){
+        historial = []
+    }else{
+        historial.forEach(e => {
+            mostrarHistorial.innerHTML += `<div><p>${e.operacion}</p></div>`
+        });
+
+    }
 }
 
 var guardarLS = ()=>{
