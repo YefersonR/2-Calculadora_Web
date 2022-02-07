@@ -1,3 +1,5 @@
 # Calculator
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Yp-VsWhJNBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+> Haz click en el **Video** para ver el funcionamiento
+
+<a href="https://www.youtube.com/embed/Yp-VsWhJNBg"><img src="/Captura.png" alt="Funcionamiento" /></a>
