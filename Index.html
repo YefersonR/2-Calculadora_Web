@@ -5,14 +5,65 @@
     <meta http-equiv="X-UA-Compatible" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link 
+    rel="stylesheet" href="styles.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+
 </head>
 <body>
+    <h1>Web Calculator</h1>
     <div id="" class="calculadora">
-        <h1>Calculadora Web</h1>
-        <input id="dato" type="number" placeholder="Ingrese una operacion ">
-        <input id="dato1" class="op" type="text" disabled>
-       <!-- <button id="guardar">guardar</button> -->
+        <div class="calculator">
+                <div class="inputs">
+                    <input id="dato" type="number" value ="0">
+                    <!--<label id="dato1" class="op" type="text" ></label>-->
+                </div>
+                <div class="nums" id="nums">
+                <button class="c">C</button>
+                <button class="ope">%</button>
+                <button class="ope">/</button>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button class="ope">x</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button class="ope">-</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button class="ope">+</button>
+                <button class="o">0</button>
+                <button>.</button>
+                <button class="res">=</button>
+            </div>
+        
+        </div>
+        <div id="historial">
+            <button class="clear" id="clear">
+                Clear
+            </button>
+            <div>
+                <p>2+3=4</p>
+            </div>
+            <div>
+                <p>2+3=4</p>
+            </div>
+            <div>
+                <p>2+3=4</p>
+            </div>
+            <div>
+                <p>2+3=4</p>
+            </div>
+            
+        </div>
+    </div>
+    <!--
+>>>>>>> 45166f3 (new design)
         <div id="mostrar">
             <button id="suma">+</button>
             <button id="resta">-</button>
@@ -20,11 +71,10 @@
             <button id="division">/</button>
             <button id="igual">=</button>
         </div>
-        <div id="historial"></div>
-    </div>
-        
+    -->
+ 
     
     
-    <script src="app.js" ></script>
+    <script src="main.js" ></script>
 </body>
 </html>

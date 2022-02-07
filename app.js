@@ -17,46 +17,42 @@ var division = document.getElementById('division')
 //Operaciones
 
  var opSuma = ()=>{
-    if(dato1.value == ''){
-        dato1.value += `${dato.value}`
+    if(dato1.textContent == ''){
+        dato1.textContent += `${dato.value}`
     }
     else{
-        dato1.value += `+ ${dato.value}`
+        dato1.textContent += ` + ${dato.value}`
     }
     values += parseInt(dato.value)
     
-    console.log(values)
     return values
     };
 var opResta = ()=>{
     
-    dato1.value += `- ${dato.value}`
+    dato1.textContent += `- ${dato.value}`
     values -= parseInt(dato.value) 
-    console.log(values)
     return values
 
 }
 
 var opMult =()=>{
-    if(dato1.value == ''){
-        dato1.value += `${dato.value}`
+    if(dato1.textContent == ''){
+        dato1.textContent += `${dato.value}`
     }
     else{
-        dato1.value += `* ${dato.value}`
+        dato1.textContent += `* ${dato.value}`
     }
     values *= parseInt(dato.value)
-    console.log(values)
     return values
 }
 var opDiv =()=>{
-    if(dato1.value == ''){
-        dato1.value += `${dato.value}`
+    if(dato1.textContent == ''){
+        dato1.textContent += `${dato.value}`
     }
     else{
-        dato1.value += `/ ${dato.value}`
+        dato1.textContent += `/ ${dato.value}`
     }
     values /= parseInt(dato.value)
-    console.log(values)
     return values
 }
 
@@ -118,11 +114,11 @@ division.addEventListener('click',()=>{
 
 
 igual.addEventListener('click',()=>{
-    crearOperacion(`${dato1.value} = ${values}`)
+    crearOperacion(`${dato1.textContent} = ${values}`)
     values = 0
     guardarLS()
     limpiar()
-    dato1.value = ''
+    dato1.textContent = ''
 })
 
 
