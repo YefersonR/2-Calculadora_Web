@@ -1,5 +1,5 @@
 # Calculator
 
-> Haz click en el **Video** para ver el funcionamiento
+> Haz click en el **IMG** para ver el funcionamiento
 
-<a href="https://www.youtube.com/embed/Yp-VsWhJNBg"><img src="https://github.com/YefersonR/2-Calculadora_Web/blob/master/Captura.PNG?raw=true" alt="Funcionamiento" /></a>
+<a href="https://youtu.be/NsHJDK7zThM"><img src="Captura.PNG" alt="Funcionamiento" /></a>
